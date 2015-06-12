@@ -1,0 +1,97 @@
+.dl-horizontal dt {
+    float: left;
+    width: 100px;
+    clear: left;
+}
+
+.dl-horizontal dd {
+    margin-left: 100px;
+}
+
+.dl-horizontal dt:not(:first-of-type),
+.dl-horizontal dd:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+
+.card p.title,
+.card p.date {
+    margin: 0;
+    color: black;
+}
+.card p.title {
+    font-size: 20px;
+}
+.card p.date {
+    margin: 0.5em 0;
+}
+
+
+
+.my-toolbar {
+    position: absolute;
+    height: 48px;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    background: #f7f7f8;
+    z-index: 100;
+}
+.my-toolbar .row {
+    padding: 8px;
+}
+
+
+.panel-overlay {
+    opacity: 0.5;
+    background: black;
+}
+.panel {
+    background: #f7f7f7;
+}
+.panel .list-block {
+    margin: 15px 0;
+}
+.panel .content-block-title {
+    margin-top: 0 !important;
+}
+
+
+#data-share-group {
+    background-color: rgba(243,243,243,.95);
+    text-align: center;
+}
+#data-share-group .col-33 {
+    margin: 5px;
+}
+
+.data-share-weibo, .data-share-weixin, .data-share-qq {
+    color: black;
+}
+.data-share-weibo i, .data-share-weixin i, .data-share-qq i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    color: black;
+}
+.data-share-weibo span, 
+.data-share-weixin span, 
+.data-share-qq span {
+    display: block;
+}
+.data-share-weibo {
+
+}
+.data-share-weixin {
+
+}
+.data-share-qq {
+//    background: #009cda;
+}
+
+
